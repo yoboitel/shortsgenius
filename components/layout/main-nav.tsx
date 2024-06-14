@@ -40,8 +40,9 @@ export function MainNav({ items, children }: MainNavProps) {
   return (
     <div className="flex gap-6 md:gap-10">
       <Link href="/" className="hidden items-center space-x-2 md:flex">
-        <Icons.logo />
-        <span className="hidden font-urban text-xl font-bold sm:inline-block">
+        {/*/* Remove the logo and text to add the image from figma */}
+        <img src="/images/logoicon.png" alt="Logo" className="h-8 w-auto" />
+        <span className="hidden font-poppins text-xl font-extrabold sm:inline-block">
           {siteConfig.name}
         </span>
       </Link>

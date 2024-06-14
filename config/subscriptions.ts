@@ -40,8 +40,8 @@ export const pricingData: SubscriptionPlan[] = [
       'Limited access to business resources.',
     ],
     prices: {
-      monthly: 15,
-      yearly: 144,
+      monthly: 19.99,
+      yearly: 198,
     },
     stripeIds: {
       monthly: env.NEXT_PUBLIC_STRIPE_PRO_MONTHLY_PLAN_ID,
@@ -60,7 +60,7 @@ export const pricingData: SubscriptionPlan[] = [
     ],
     limitations: [],
     prices: {
-      monthly: 30,
+      monthly: 39.99,
       yearly: 300,
     },
     stripeIds: {

@@ -92,45 +92,45 @@ export const features = [
 
 export const testimonials = [
   {
-    name: "John Doe",
-    job: "Full Stack Developer",
-    image: "https://randomuser.me/api/portraits/men/1.jpg",
+    name: "Best History Facts",
+    job: "Youtube Channel",
+    image: "https://randomuser.me/api/portraits/men/12.jpg",
     review:
-      "The next-saas-stripe-starter repo has truly revolutionized my development workflow. With its comprehensive features and seamless integration with Stripe, I've been able to build and deploy projects faster than ever before. The documentation is clear and concise, making it easy to navigate through the setup process. I highly recommend next-saas-stripe-starter to any developer.",
+      "Skeptical at first, but now I'm a believer. This tool simplifies everything from planning content to posting, leaving me more time to focus on what truly matters, make my channel profitable.",
   },
   {
-    name: "Alice Smith",
-    job: "UI/UX Designer",
+    name: "The Scientist",
+    job: "Youtube Channel",
     image: "https://randomuser.me/api/portraits/women/2.jpg",
     review:
-      "Thanks to next-saas-stripe-starter, I've been able to create modern and attractive user interfaces in record time. The starter kit provides a solid foundation for building sleek and intuitive designs, allowing me to focus more on the creative aspects of my work.",
+      "Mind-blowing efficiency! With this AI, I've cut down hours of manual work on my channel. It's like having a dedicated team working tirelessly behind the scenes.",
   },
   {
-    name: "David Johnson",
-    job: "DevOps Engineer",
+    name: "Future Inventions",
+    job: "Youtube Channel",
     image: "https://randomuser.me/api/portraits/men/3.jpg",
     review:
-      "Thanks to next-saas-stripe-starter, I was able to streamline the entire process and get payments up and running in no time. ",
+      "Couldn't imagine managing my channel without it! The AI takes care of the nitty-gritty, leaving me stress-free. It's like having a personal assistant dedicated to my success.",
   },
   {
-    name: "Michael Wilson",
-    job: "Project Manager",
+    name: "Michael",
+    job: "Youtube Channel",
     image: "https://randomuser.me/api/portraits/men/5.jpg",
     review:
-      "I'm impressed by the quality of code and clear documentation of next-saas-stripe-starter. Kudos to the team!",
+      "Game-changer! This AI has revolutionized the way I handle my channel. No more tedious tasks. No more headaches. Just smooth sailing from start to finish.",
   },
   {
-    name: "Sophia Garcia",
-    job: "Data Analyst",
+    name: "Sophia",
+    job: "Youtube Channel",
     image: "https://randomuser.me/api/portraits/women/6.jpg",
     review:
-      "next-saas-stripe-starter provided me with the tools I needed to efficiently manage user data. Thank you so much!",
+      "Started to get big views right after ! It's the secret weapon every faceless channel owner needs. I've seen a noticeable boost in engagement and efficiency.",
   },
   {
-    name: "Emily Brown",
-    job: "Marketing Manager",
+    name: "Interesting Stories",
+    job: "Youtube Channel",
     image: "https://randomuser.me/api/portraits/women/4.jpg",
     review:
-      "next-saas-stripe-starter has been an invaluable asset in my role as a marketing manager. With its seamless integration with Stripe, I've been able to launch targeted marketing campaigns with built-in payment functionality, allowing us to monetize our products and services more effectively.",
+      "Life saver! As a busy entrepreneur, this tool has been a godsend. It's simplified my content creation process and allowed me to scale my channel without breaking a sweat.",
   },
 ];

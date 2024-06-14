@@ -9,9 +9,8 @@ export function Testimonials() {
       <div className="container flex max-w-7xl flex-col gap-10 py-32 sm:gap-y-16">
         <HeaderSection
           label="Testimonials"
-          title="What our clients are sharing."
-          subtitle="Discover the glowing feedback from our delighted customers
-            worldwide."
+          title="100+ faceless channels already use our AI"
+          subtitle="Cut the hassle, get everything done for you, from content generation, editing, to posting."
         />
 
         <div className="column-1 gap-5 space-y-5 md:columns-2 lg:columns-3 xl:columns-4">

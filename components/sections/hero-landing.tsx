@@ -7,42 +7,25 @@ import { buttonVariants } from "@/components/ui/button";
 import { Icons } from "@/components/shared/icons";
 
 export async function HeroLanding() {
-  const { stargazers_count: stars } = await fetch(
-    "https://api.github.com/repos/mickasmt/next-saas-stripe-starter",
-    {
-      ...(env.GITHUB_OAUTH_TOKEN && {
-        headers: {
-          Authorization: `Bearer ${process.env.GITHUB_OAUTH_TOKEN}`,
-          "Content-Type": "application/json",
-        },
-      }),
-      // data will revalidate every hour
-      next: { revalidate: 3600 },
-    },
-  )
-    .then((res) => res.json())
-    .catch((e) => console.log(e));
 
   return (
     <section className="space-y-6 py-12 sm:py-20 lg:py-20">
       <div className="container flex max-w-5xl flex-col items-center gap-5 text-center">
         {/* Want animations? Check here: https://github.com/mickasmt/next-saas-stripe-starter/blob/76eb9f2b70b29c7a734ff0e5b047796ed2dac28d/app/(marketing)/page.tsx */}
-        <Link
-          href="https://twitter.com/miickasmt/status/1719892161095745801"
+        <h1
           className={cn(
             buttonVariants({ variant: "outline", size: "sm", rounded: "full" }),
             "px-4",
-          )}
-          target="_blank"
-        >
-          <span className="mr-3">🎉</span> Introducing on{" "}
-          <Icons.twitter className="ml-2 size-3.5" />
-        </Link>
+          )}>
+
+          <span className="mr-3">🚀</span> Powered by OpenAI
+
+        </h1>
 
         <h1 className="text-balance font-urban text-4xl font-extrabold tracking-tight sm:text-5xl md:text-6xl lg:text-[66px]">
-          Kick off with a bang with{" "}
+          Automate faceless shorts videos on{" "}
           <span className="text-gradient_indigo-purple font-extrabold">
-            SaaS Starter
+            Autopilot.
           </span>
         </h1>
 
@@ -50,8 +33,8 @@ export async function HeroLanding() {
           className="max-w-2xl text-balance leading-normal text-muted-foreground sm:text-xl sm:leading-8"
           style={{ animationDelay: "0.35s", animationFillMode: "forwards" }}
         >
-          Build your next project using Next.js 14, Prisma, Neon, Auth.js
-          v5, Resend, React Email, Shadcn/ui, Stripe.
+          
+          100% automated. Script, editing, posting.
         </p>
 
         <div
@@ -68,25 +51,6 @@ export async function HeroLanding() {
           >
             <span>Go Pricing</span>
             <Icons.arrowRight className="size-4" />
-          </Link>
-          <Link
-            href={siteConfig.links.github}
-            target="_blank"
-            rel="noreferrer"
-            className={cn(
-              buttonVariants({
-                variant: "outline",
-                size: "lg",
-                rounded: "full",
-              }),
-              "px-5",
-            )}
-          >
-            <Icons.gitHub className="mr-2 size-4" />
-            <p>
-              <span className="hidden sm:inline-block">Star on</span> GitHub{" "}
-              <span className="font-semibold">{nFormatter(stars)}</span>
-            </p>
           </Link>
         </div>
       </div>

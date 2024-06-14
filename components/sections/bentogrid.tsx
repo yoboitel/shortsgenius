@@ -27,7 +27,7 @@ export function BentoGrid() {
                     </span>
                   </div>
                   <h2 className="mt-6 text-center font-heading text-3xl md:text-4xl lg:text-[40px]">
-                    Customizable
+                    Automated
                   </h2>
                 </div>
               </div>
@@ -90,11 +90,10 @@ export function BentoGrid() {
                   </div>
                   <div className="relative z-10 mt-8 space-y-1.5 text-center">
                     <h2 className="text-lg font-medium text-foreground">
-                      Secure by default
+                      Unique Content Creation
                     </h2>
                     <p className="text-muted-foreground">
-                      Provident fugit and vero voluptate. magnam magni doloribus
-                      dolores voluptates a sapiente nisi.
+                      Our AI makes sure to get the highest views for your video.
                     </p>
                   </div>
                 </div>
@@ -187,11 +186,10 @@ export function BentoGrid() {
                   </div>
                   <div className="relative z-10 mt-8 space-y-1.5 text-center">
                     <h2 className="text-lg font-medium text-foreground">
-                      Faster than light
+                      Auto-editing at lightspeed.
                     </h2>
                     <p className="text-muted-foreground">
-                      Provident fugit vero voluptate. magnam magni doloribus
-                      dolores voluptates inventore nisi.
+                      Our AI auto-edit your videos with dynamic assets to improve its virality.
                     </p>
                   </div>
                 </div>
@@ -219,11 +217,10 @@ export function BentoGrid() {
                     </div>
                     <div className="space-y-2">
                       <h2 className="text-lg font-medium text-foreground">
-                        Faster than light
+                        Save hours of hard work
                       </h2>
                       <p className="text-muted-foreground">
-                        Provident fugit vero voluptate. Voluptates a sapiente
-                        inventore nisi.
+                      Remove the hassle. Everything is done for you. You're in control.
                       </p>
                     </div>
                   </div>
@@ -304,11 +301,10 @@ export function BentoGrid() {
                     </div>
                     <div className="space-y-2">
                       <h2 className="text-lg font-medium text-foreground">
-                        Keep your loved ones safe
+                        Scheduled auto posting
                       </h2>
                       <p className="text-muted-foreground">
-                        Voluptate. magnam magni doloribus dolores voluptates a
-                        sapiente.
+                         Easily schedule when each video is posted. It's magic, even when you're asleep.
                       </p>
                     </div>
                   </div>
@@ -316,7 +312,7 @@ export function BentoGrid() {
                     <div className="relative flex h-full flex-col justify-center space-y-6 py-6">
                       <div className="relative flex w-[calc(50%+0.875rem)] items-center justify-end gap-2">
                         <span className="block h-fit rounded-md border bg-muted/50 px-2 py-1 text-xs">
-                          Glodie
+                          Posted
                         </span>
                         <div className="size-7 ring-4 ring-background">
                           <Image
@@ -339,12 +335,12 @@ export function BentoGrid() {
                           />
                         </div>
                         <span className="block h-fit rounded-md border bg-muted/50 px-2 py-1 text-xs">
-                          M. Irung
+                          Scheduled on Friday
                         </span>
                       </div>
                       <div className="relative flex w-[calc(50%+0.875rem)] items-center justify-end gap-2">
                         <span className="block h-fit rounded-md border bg-muted/50 px-2 py-1 text-xs">
-                          B. Ng
+                          In review
                         </span>
                         <div className="size-7 ring-4 ring-background">
                           <Image

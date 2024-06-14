@@ -1,5 +1,6 @@
 import localFont from "next/font/local";
 import { Inter as FontSans, Urbanist } from "next/font/google";
+import { Poppins } from "next/font/google";
 
 export const fontSans = FontSans({
   subsets: ["latin"],
@@ -15,3 +16,9 @@ export const fontHeading = localFont({
   src: "./CalSans-SemiBold.woff2",
   variable: "--font-heading",
 })
+
+export const fontPoppins = Poppins({
+  subsets: ["latin"],
+  variable: "--font-poppins",
+  weight: "700"
+});
